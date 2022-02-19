@@ -13,7 +13,7 @@ git clone git@github.com:huseyinkombayci/notify-api.git
 ```js
 import notify from "notify-api";
 
-console.log((await notify) - api({ url, message }));
+console.log((await notify({ url, message }));
 //=> ${new Date().toISOString()} - ${message} is sent.
 ```
 
@@ -29,13 +29,13 @@ Type: `object`
 
 ##### url
 
-Type: `string`\
+Type: `string`
 
 API endpoint to send messages.
 
 ##### message
 
-Type: `string`\
+Type: `string`
 
 Message to send.
 
@@ -43,6 +43,6 @@ Message to send.
 import notify from "notify-api";
 
 console.log(
-  await ipify({ url: "http://localhost:8080/notify", message: "test message" })
+  await notify({ url: "http://localhost:8080/notify", message: "test message" })
 );
 ```
