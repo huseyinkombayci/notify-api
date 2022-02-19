@@ -1,0 +1,27 @@
+{
+  "name": "notify-api",
+  "version": "1.0.0",
+  "description": "Simple HTTP notification client",
+  "license": "MIT",
+  "repository": "huseyinkombayci/notify-api",
+  "author": {
+    "name": "Huseyin Kombayci",
+    "url": "https://huseyinkombayci.com"
+  },
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "dependencies": {
+    "got": "^12.0.1"
+  },
+  "devDependencies": {
+    "ava": "^4.0.1",
+    "nock": "^13.2.4",
+    "xo": "^0.48.0"
+  }
+}
