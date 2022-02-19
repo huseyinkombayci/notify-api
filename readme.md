@@ -4,7 +4,9 @@
 
 ## Clone
 
-> git clone git@github.com:huseyinkombayci/notify-api.git
+```
+git clone git@github.com:huseyinkombayci/notify-api.git
+```
 
 ## Usage
 
